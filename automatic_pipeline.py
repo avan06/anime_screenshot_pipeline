@@ -65,7 +65,7 @@ def update_args_from_toml(
     """
     new_args = copy.deepcopy(args)
     try:
-        with open(toml_path, "r") as f:
+        with open(toml_path, "r", encoding="utf-8") as f:
             config = toml.load(f)
         for key, value in config.items():
             if isinstance(value, dict):
