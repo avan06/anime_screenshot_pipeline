@@ -106,7 +106,7 @@ filter_again = true
 # Whether to overwrite existing tags
 overwrite_tags = false
 # Method used for tagging
-tagging_method = "wd14_convnextv2"
+tagging_method = "wd14_v3_swinv2"
 # Threshold for tagging
 tag_threshold = 0.35
 
